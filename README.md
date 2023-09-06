@@ -2,6 +2,7 @@
 - setup & zookeeper init
 
 -unzip the file
+
 -tar -xzf kafka_2.13-3.5.0.tgz
 
 
