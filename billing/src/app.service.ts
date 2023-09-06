@@ -8,12 +8,12 @@ export class AppService {
   }
 
   handleOrderCreated(orderCreateedEvent: OrderCreatedEvent) {
-    console.log('order created topic');
+    console.log('order created');
     console.log(orderCreateedEvent);
   }
 
   handleOrderUpdated(orderUpdatedEvent: any) {
-    console.log('order updated topic');
+    console.log('order updated');
     console.log(orderUpdatedEvent);
   }
 }
